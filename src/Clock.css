@@ -1,0 +1,23 @@
+body {
+  background-image: url(https://wallpaperaccess.com/full/31189.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 50vh;
+  min-width: 100vh;
+}
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 330px;
+}
+div {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 49px;
+  font-weight: 800;
+  color: white;
+  backdrop-filter: blur(3px);
+  text-shadow: 6px 6px 6px rgb(252, 207, 61);
+}
